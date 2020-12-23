@@ -1,4 +1,4 @@
-extends Node2D
+extends "res://Entities/CharacterBase.gd"
 
 export var Limit: float
 
@@ -9,7 +9,10 @@ export var Speed = 100
 func _ready():
 	pass  # Replace with function body.
 
-
+# Call this when player dies
+func _die():
+	pass
+	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if Input.is_action_pressed("ui_right"):
