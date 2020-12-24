@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/retro_collect_pickup_coin_20.WAV-ef9d57ea0fa6fbbbb3d1bd033b97132b.sample"
+
+[deps]
+
+source_file="res://Assets/Sounds/Collectables/Wavs/retro_collect_pickup_coin_20.WAV"
+dest_files=[ "res://.import/retro_collect_pickup_coin_20.WAV-ef9d57ea0fa6fbbbb3d1bd033b97132b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

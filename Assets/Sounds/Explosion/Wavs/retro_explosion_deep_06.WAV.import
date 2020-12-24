@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/retro_explosion_deep_06.WAV-c76a9308ea34b2a7b972ee8180ec1963.sample"
+
+[deps]
+
+source_file="res://Assets/Sounds/Explosion/Wavs/retro_explosion_deep_06.WAV"
+dest_files=[ "res://.import/retro_explosion_deep_06.WAV-c76a9308ea34b2a7b972ee8180ec1963.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

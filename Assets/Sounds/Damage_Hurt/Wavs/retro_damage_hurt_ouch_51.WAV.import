@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/retro_damage_hurt_ouch_51.WAV-d957eda479d350a0c123864dc0c7910b.sample"
+
+[deps]
+
+source_file="res://Assets/Sounds/Damage_Hurt/Wavs/retro_damage_hurt_ouch_51.WAV"
+dest_files=[ "res://.import/retro_damage_hurt_ouch_51.WAV-d957eda479d350a0c123864dc0c7910b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

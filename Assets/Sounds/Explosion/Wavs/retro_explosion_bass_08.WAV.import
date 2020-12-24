@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/retro_explosion_bass_08.WAV-7d87d03e04dfe9b6cd4becf74c87867a.sample"
+
+[deps]
+
+source_file="res://Assets/Sounds/Explosion/Wavs/retro_explosion_bass_08.WAV"
+dest_files=[ "res://.import/retro_explosion_bass_08.WAV-7d87d03e04dfe9b6cd4becf74c87867a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

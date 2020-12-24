@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/retro_eat_collect_01.WAV-c908e1ea539e3110dcc78a68a32cbcf2.sample"
+
+[deps]
+
+source_file="res://Assets/Sounds/Collectables/Wavs/retro_eat_collect_01.WAV"
+dest_files=[ "res://.import/retro_eat_collect_01.WAV-c908e1ea539e3110dcc78a68a32cbcf2.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

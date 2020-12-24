@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/retro_explosion_short_02.WAV-a5fc17c59b8a81b40b569a68ef0d0e71.sample"
+
+[deps]
+
+source_file="res://Assets/Sounds/Explosion/Wavs/retro_explosion_short_02.WAV"
+dest_files=[ "res://.import/retro_explosion_short_02.WAV-a5fc17c59b8a81b40b569a68ef0d0e71.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
