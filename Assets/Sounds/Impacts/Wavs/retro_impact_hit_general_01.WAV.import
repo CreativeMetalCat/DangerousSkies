@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/retro_impact_hit_general_01.WAV-1ff2d62c5ee53bc901a154d9717092f0.sample"
+
+[deps]
+
+source_file="res://Assets/Sounds/Impacts/Wavs/retro_impact_hit_general_01.WAV"
+dest_files=[ "res://.import/retro_impact_hit_general_01.WAV-1ff2d62c5ee53bc901a154d9717092f0.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
