@@ -1,27 +1,42 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Entities/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/Sprites/Space2.png" type="Texture" id=2]
 [ext_resource path="res://Assets/Particles/Explosion.tres" type="Material" id=3]
 [ext_resource path="res://Assets/Sprites/Particles/ExplosionPlaceholder.png" type="Texture" id=4]
+[ext_resource path="res://Entities/Enemy/EnemyBase.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Maps/DebugInfoDisplay.gd" type="Script" id=6]
+[ext_resource path="res://Entities/Enemy/BasicEnemies/EnemyMoveSideToSide.gd" type="Script" id=7]
 
 [node name="DefaultMap" type="Node2D"]
 
 [node name="Space2" type="Sprite" parent="."]
-position = Vector2( -16, -40 )
+position = Vector2( -24, -24 )
 texture = ExtResource( 2 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 0, 216 )
+position = Vector2( 0, 240 )
+bulletScene = "res://Entities/Bullets/BulletBase.tscn"
 
-[node name="Player2" parent="." instance=ExtResource( 1 )]
-position = Vector2( 0, -8 )
+[node name="RichTextLabel" type="RichTextLabel" parent="Player"]
+margin_left = -24.0
+margin_top = -56.0
+margin_right = 16.0
+margin_bottom = -16.0
+script = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
 
 [node name="Particles2D" type="Particles2D" parent="."]
-position = Vector2( 360, 48 )
+position = Vector2( 232, 56 )
 local_coords = false
 process_material = ExtResource( 3 )
 texture = ExtResource( 4 )
+
+[node name="Enemy" parent="." instance=ExtResource( 5 )]
+position = Vector2( 0, -152 )
+script = ExtResource( 7 )

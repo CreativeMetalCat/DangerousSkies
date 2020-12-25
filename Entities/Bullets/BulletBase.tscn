@@ -1,13 +1,13 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Assets/Sprites/Bullets/BasicBulletAnims.tres" type="SpriteFrames" id=1]
-[ext_resource path="res://Entities/BulletBase.gd" type="Script" id=2]
+[ext_resource path="res://Entities/Bullets/BulletBase.gd" type="Script" id=2]
 [ext_resource path="res://Assets/Sounds/Impacts/Wavs/retro_impact_hit_general_10.WAV" type="AudioStream" id=3]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 2.13377, 5.09945 )
 
-[node name="Area2D" type="Area2D"]
+[node name="Bullet" type="Area2D"]
 script = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
